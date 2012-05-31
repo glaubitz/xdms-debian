@@ -1,0 +1,23 @@
+Description: Fix the Makefile so that it works for Debian
+Author: Gürkan Sengün <gurkan@phys.ethz.ch>
+Last-Update: 2012-05-31
+
+--- xdms-1.3.2.orig/Makefile.in
++++ xdms-1.3.2/Makefile.in
+@@ -4,12 +4,12 @@ xdms:
+ 
+ clean:	
+ 	$(MAKE) -C src clean
++	rm xdms.1.gz
+ 
+ install:	xdms
+-	mkdir -p {PREFIX}/bin {PREFIX}/share/doc/xdms-{VERSION} {PREFIX}/share/man/man1
++	mkdir -p {PREFIX}/bin {PREFIX}/share/man/man1
+ 	install src/xdms {PREFIX}/bin/
+-	install xdms.txt COPYING ChangeLog.txt {PREFIX}/share/doc/xdms-{VERSION}/
++	install xdms.txt COPYING ChangeLog.txt {PREFIX}/share/doc/xdms/
+ 	chmod og+rx {PREFIX}/bin {PREFIX}/bin/xdms
+-	chmod -R og+rX {PREFIX}/share/doc/xdms-{VERSION}
+-	gzip < xdms.1 > xdms.1.gz
++	gzip -9 < xdms.1 > xdms.1.gz
+ 	install xdms.1.gz {PREFIX}/share/man/man1/

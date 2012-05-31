@@ -1,0 +1,17 @@
+Source: xdms
+Section: utils
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 8), autotools-dev, dpkg-dev (>= 1.16.1~)
+Standards-Version: 3.9.3
+Homepage: http://zakalwe.fi/~shd/foss/xdms/
+
+Package: xdms
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: unadf
+Suggests: uae
+Description: Uncompressor for Amiga DMS archives
+ This a tool for decompressing Amiga DMS files. DMS files contain disk
+ images that are these days mainly useful for Amiga emulation. It can
+ unpack DMS images to ADF images.

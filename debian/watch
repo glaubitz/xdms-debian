@@ -1,0 +1,3 @@
+version=3
+http://zakalwe.fi/~shd/foss/xdms/xdms-(.*).tar.gz
+http://zakalwe.fi/~shd/foss/xdms/xdms-(.*).tar.bz2
