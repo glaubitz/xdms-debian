@@ -1,3 +1,13 @@
+xdms (1.3.2-5) unstable; urgency=low
+
+  * New Maintainer (Closes: #661463).
+  * Bump standards version to 3.9.4.
+  * Update debian/copyright to copyright format 1.0.
+  * Include Vcs-* fields in debian/control.
+  * Bump debhelper version to 9.
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Fri, 15 Mar 2013 14:53:01 +0100
+
 xdms (1.3.2-4) unstable; urgency=low
 
   [ Axel Beckert ]
