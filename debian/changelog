@@ -1,3 +1,9 @@
+xdms (1.3.2-6) unstable; urgency=low
+
+  * [ff9593da] Fix indentation in debian/copyright file.
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Thu, 06 Jun 2013 16:43:06 +0200
+
 xdms (1.3.2-5) unstable; urgency=low
 
   * New Maintainer (Closes: #661463).
