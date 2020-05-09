@@ -1,1 +1,2 @@
 0001-Fix-Makefile-for-Debian.patch
+0002-Fix-build-with-gcc-10.patch
