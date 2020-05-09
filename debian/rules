@@ -8,7 +8,7 @@ include /usr/share/dpkg/buildtools.mk
 
 config.status: configure
 	dh_testdir
-	dh_autotools-dev_updateconfig
+	dh_update_autotools_config
 	CC=$(CC) CFLAGS="$(CFLAGS) -Wl,-z,defs" ./configure --prefix=/usr --package-prefix=$(CURDIR)/debian/xdms
 
 build: build-arch build-indep
@@ -24,7 +24,6 @@ clean:
 	dh_testdir
 	dh_testroot
 	[ ! -f Makefile ] || $(MAKE) clean
-	dh_autotools-dev_restoreconfig
 	dh_clean Makefile src/Makefile
 
 install: build
