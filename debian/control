@@ -2,7 +2,7 @@ Source: xdms
 Section: utils
 Priority: optional
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
-Build-Depends: debhelper (>= 9), autotools-dev, dpkg-dev (>= 1.16.1~)
+Build-Depends: debhelper-compat (= 12), autotools-dev, dpkg-dev (>= 1.16.1~)
 Standards-Version: 3.9.4
 Homepage: http://zakalwe.fi/~shd/foss/xdms/
 Vcs-Git: git://github.com/glaubitz/xdms-debian.git
