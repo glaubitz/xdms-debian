@@ -4,12 +4,12 @@ Source: http://zakalwe.fi/~shd/foss/xdms/
 
 Files: *
 Copyright: Andre Rodrigues de la Rocha <adlroc@usa.net>
-	   Heikki Orsila <heikki.orsila@iki.fi>
+           Heikki Orsila <heikki.orsila@iki.fi>
 License: Public Domain
 
 Files: debian/*
 Copyright: 2005-2007 Gürkan Sengün <gurkan@linuks.mine.nu>
-	   2013 John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+           2013 John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 License: Public Domain
 
 License: Public Domain
