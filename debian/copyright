@@ -5,14 +5,14 @@ Source: http://zakalwe.fi/~shd/foss/xdms/
 Files: *
 Copyright: Andre Rodrigues de la Rocha <adlroc@usa.net>
            Heikki Orsila <heikki.orsila@iki.fi>
-License: Public Domain
+License: Public-Domain
 
 Files: debian/*
 Copyright: 2005-2007 Gürkan Sengün <gurkan@linuks.mine.nu>
            2013 John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
-License: Public Domain
+License: Public-Domain
 
-License: Public Domain
+License: Public-Domain
  xDMS is released as public domain software.  You can spread it, modify it
  and  use  it in any way you like.  You can do anything with it without even
  asking  me  first.   But I would like to know if you do something cool with
